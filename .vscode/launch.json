@@ -1,0 +1,41 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "mainClass": "${file}",
+            "type": "java",
+            "name": "스프링 디버거",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                // "ENV_VAR_NAME": "value" // 환경 변수 설정
+            },
+            // "projectName": "프로젝트 이름", // 특정 프로젝트에서 실행하려면 주석을 해제하고 프로젝트 이름을 입력하세요.
+            // "preLaunchTask": "빌드 작업 이름", // 실행 전에 수행할 작업이 있다면 주석을 해제하고 작업 이름을 입력하세요.
+            // "sourcePaths": [
+                // "src/main/java", // 소스 코드 경로를 지정합니다. 필요에 따라 추가하세요.
+                // "src/test/java" // 테스트 코드 경로를 지정합니다. 필요에 따라 추가하세요.
+            // ],
+            // "classPaths": [
+                // "bin", // 컴파일된 클래스 파일 경로를 지정합니다. 필요에 따라 추가하세요.
+                // "lib/some-library.jar" // 외부 라이브러리 경로를 지정합니다. 필요에 따라 추가하세요.
+            // ],
+            // "projectRoot": "${workspaceFolder}", // 프로젝트 루트 경로
+            // "modulePaths": [], // 모듈 경로를 지정합니다. 필요에 따라 추가하세요.
+            // "moduleName": "", // 모듈 이름을 지정합니다. 필요에 따라 추가하세요.            
+            // "timeout": 10000, // 디버그 세션 타임아웃 (밀리초 단위)
+            // "port": 8080, // 디버그 포트 (0은 자동 할당)
+            // "host": "localhost", // 디버그 호스트
+            // "localRoot": "${workspaceFolder}", // 로컬 소스 코드 경로
+            // "remoteRoot": "", // 원격 소스 코드 경로 (원격 디버깅 시 사용)
+            // "console": "internalConsole",
+            // "stopOnEntry": false,
+            // "args": [], // 프로그램에 전달할 인수
+            // "vmArgs": [], // JVM에 전달할 인수
+        }
+    ]
+}
